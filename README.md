@@ -6,11 +6,11 @@
 
 ## Sobre o projeto
 
-A aplicação Weather utiliza Next.js com TypeScript para criar uma experiência rápida e tipada. Integra a API Open Weather Map para fornecer dados meteorológicos atualizados. O layout responsivo é garantido com CSS modules, oferecendo uma interface adaptável e estilizada.
+A aplicação Weather utiliza React.js com TypeScript para criar uma experiência rápida e tipada. Integra a API Open Weather Map para fornecer dados meteorológicos atualizados. O layout responsivo é garantido com CSS modules, oferecendo uma interface adaptável e estilizada.
 
 #### About the project
 
-The Weather app uses Next.js with TypeScript to create a fast, typed experience. Integrates the Open Weather Map API to provide up-to-date weather data. Responsive layout is guaranteed with CSS modules, offering an adaptable and stylized interface.
+The Weather app uses React.js with TypeScript to create a fast, typed experience. Integrates the Open Weather Map API to provide up-to-date weather data. Responsive layout is guaranteed with CSS modules, offering an adaptable and stylized interface.
 
 ## Layout Desktop e Mobile (Desktop and Mobile Layout)
 
@@ -23,7 +23,7 @@ The Weather app uses Next.js with TypeScript to create a fast, typed experience.
 * JavaScript
 * API [Open Weather Map](http://openweathermap.org/api)
 * Typescript
-* Next Js
+* React Js Vite
 
 ## Instalação (Installation)
 
