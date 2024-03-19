@@ -1,0 +1,368 @@
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2510a3;
+}
+
+.container {
+    width: 60vw;
+    height: 83%;
+    padding: 1rem 2rem;
+    box-sizing: border-box;
+    background-color: #f8f7f7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    padding: 0.25rem 0;
+    display: flex;    
+    justify-content: center;   
+}
+
+.form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.field {
+    width: 70%;
+    height: auto;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+.nav input {
+    width: 100%;
+    height: auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: transparent;    
+}
+
+.nav input,
+.nav input::placeholder {    
+    text-transform: capitalize;
+    text-align: center;
+    color: #6d58e2;
+}
+
+.nav button {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #2510A3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav img {
+    width: 52px;
+    height: 52px;
+}
+
+.nav form button img {
+    width: 34px;
+    height: 34px;
+}
+
+.header {
+    width: 100%;
+    height: 0;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 0;
+    font-weight: 700;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp {
+    width: 100%;
+    height: 100%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp img {
+    width: 250px;
+    height: auto;
+    padding: 0.30rem;
+}
+
+.temp h3 {
+    margin: 1rem 0;
+    font-size: 3rem;
+    color: #6d58e2;
+    text-align: center;
+}
+
+.temp h4 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.values {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.values h4 {
+    font-size: 1.6rem;
+    color: #6d58e2;
+}
+
+.values h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.values img {
+    width: 32px;
+    height: 32px;
+}
+
+.values article {
+    width: 50%;
+    margin: 1rem 0;
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    text-align: left;    
+}
+
+.footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 1.2rem;
+    color: #2510A3;
+    text-transform: capitalize;
+}
+
+/* -------- // ---------- */
+
+@media(max-width: 1280px) {    
+    .nav input {
+        font-size: 1.8rem;   
+    }
+    .temp img {
+        width: 220px;
+    }
+    .temp h3 {
+        font-size: 2.8rem;
+    }
+    .nav img {
+        width: 48px;
+        height: 48px;
+    }
+    .nav form button img {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media(max-width: 992px) {    
+    .container {
+        width: 70vw;
+    }
+    .temp img {
+        width: 180px;
+    }
+    .nav img {
+        width: 48px;
+        height: 48px;
+    }
+    .nav form button img {
+        width: 32px;
+        height: 32px;
+    }
+    .temp h3 {
+        font-size: 2.2rem;
+    }
+    .temp h4 {
+        font-size: 1.4rem;
+    }
+    .values h4 {
+        font-size: 1.3rem;
+    }
+    .values h5 {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 768px) {    
+    .container {
+        width: 85vw;
+        height: 85vh;
+        padding: 2rem;   
+    }
+    .nav input {
+        font-size: 1.4rem;
+    }  
+    .main {
+        height: 70vh;
+        flex-wrap: wrap;
+    }
+    .section {
+        justify-content: space-between;
+    }
+    .temp,
+    .values {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .values {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .values article {
+        width: auto;
+    }
+    .nav img {
+        width: 48px;
+        height: 48px;
+    }
+    .nav form button img {
+        width: 32px;
+        height: 32px;
+    }
+    .values img {
+        width: 28px;
+        height: 28px;
+    }
+    .temp h3 {
+        font-size: 2.8rem;
+    }    
+    .temp h4 {
+        font-size: 1.4rem;
+    }
+    .values h4 {
+        font-size: 1.6rem;
+    }    
+    .values h5 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        padding: 1rem 2rem;   
+    }    
+    .nav input {        
+        font-size: 1.4rem;
+    }    
+    .nav img {
+        width: 48px;
+        height: 48px;
+    }
+    .nav form button img {
+        width: 32px;
+        height: 32px;
+    }
+    .values img {
+        width: 28px;
+        height: 28px;
+    }
+    .temp img {
+        width: 150px;
+    }    
+    .temp h3 {
+        font-size: 2.5rem;
+    }
+    .temp h4 {
+        font-size: 1.4rem;
+    }
+    .values img {
+        width: 28px;
+        height: 28px;
+    }
+    .values h4 {
+        font-size: 1.3rem;
+    }
+    .values h5 {
+        font-size: 1.2rem;
+    }
+    .footer h4 {
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width: 467px) {
+    .container {
+        padding: 1rem;   
+    }
+    .nav input {        
+        font-size: 1.2rem;
+    } 
+    .nav img {
+        width: 32px;
+        height: 32px;
+    }
+    .nav form button {
+        width: 32px;
+        height: 32px;
+    } 
+    .nav form button img {
+        width: 24px;
+        height: 24px;
+    }
+}

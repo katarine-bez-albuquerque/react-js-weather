@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url('/fonts/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    outline: 0 none;
+    border: 0 none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body,
+#row {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    overflow: hidden;
+}
